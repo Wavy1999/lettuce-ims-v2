@@ -1,0 +1,17 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.inStock     { background: var(--bg-badge-stock);     color: var(--text-badge-stock);     }
+.lowStock    { background: var(--bg-badge-low);       color: var(--text-badge-low);       }
+.outOfStock  { background: var(--bg-badge-out);       color: var(--text-badge-out);       }
+.pending     { background: var(--bg-badge-pending);   color: var(--text-badge-pending);   }
+.fulfilled   { background: var(--bg-badge-fulfilled); color: var(--text-badge-fulfilled); }
+.cancelled   { background: var(--bg-badge-cancelled); color: var(--text-badge-cancelled); }
